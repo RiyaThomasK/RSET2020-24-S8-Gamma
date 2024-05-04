@@ -3,9 +3,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 
-password = "ymly ewzc trem qxgn"
-from_email = "siddharthgoutaman@gmail.com" 
-to_email = "siddharthgoutaman@icloud.com"
+password = "password"
+from_email = "from@gmail.com" 
+to_email = "to@icloud.com"
 server = smtplib.SMTP('smtp.gmail.com: 587')
 server.starttls()
 server.login(from_email, password)
